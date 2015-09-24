@@ -43,6 +43,7 @@ li.free{
   float: left;
 }
 
+
 .titlebar li{
   display: inline-block;
   font-size: 25px;
@@ -76,35 +77,24 @@ li.free{
 
 .background{
   background-color: #F4F4F4;
-  width: 100%;
+  max-width: 100%;
 }
 
-.tiepics{
-  margin-left: 180px;
-}
-
-.tiepics li{
+.tiecolors{
   display: inline-block;
-  width: 75px;
-  margin-right: 10px;
-}
-.background p{
   text-align: center;
-  font-size: 40px;
+  margin-left: 150px;
+  margin-top: -79px;
 }
 
-.tiecolors {
-  margin:0 100px;
-}
-
-.tiecolors li{
+.tie{
   display: inline-block;
-  width: 100%;
-  padding-right: 35px;
-  font-size: 18px;
 }
 
-
+.tie img{
+  width: 65%;
+  margin-right: -9px;
+}
 
 
 
