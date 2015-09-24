@@ -1,0 +1,38 @@
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*Toolbar*/
+
+.toolbar{
+  background-color: #FA6838;
+  margin-left: 10px;
+}
+
+.toolbar li {
+  display: inline-block;
+  margin-right: 0px; 
+  color: #FEFEFE;
+  margin: 5px;
+  font-size: 14px;
+}
+
+li.free{
+  margin-left: 65px;
+  background-color: #C7532B;
+  padding: 6px;
+  border-radius: 2px;
+}
+
+
+/*Titlebar*/
+
+/*Ties*/
+
+/*Otherties*/
+
+/*Story*/
+
+/*Foot1*/
+
+/*Foot2*/
