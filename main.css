@@ -27,7 +27,10 @@ li.free{
 }
 
 /*******Titlebar*******/
-
+.wholetitlebar{
+  padding-bottom: 130px;
+  border-bottom: 1px solid black
+}
 .title{
   bottom-border: 1px solid black;
   overflow: auto;
@@ -69,6 +72,37 @@ li.free{
   width: 100%;
 }
 
+/*********Ties Images*******/
+
+.background{
+  background-color: #F4F4F4;
+  width: 100%;
+}
+
+.tiepics{
+  margin-left: 180px;
+}
+
+.tiepics li{
+  display: inline-block;
+  width: 75px;
+  margin-right: 10px;
+}
+.background p{
+  text-align: center;
+  font-size: 40px;
+}
+
+.tiecolors {
+  margin:0 100px;
+}
+
+.tiecolors li{
+  display: inline-block;
+  width: 100%;
+  padding-right: 35px;
+  font-size: 18px;
+}
 
 
 
