@@ -3,6 +3,7 @@
   list-style: none;
   max-width: 100%;
   margin-left: 5px;
+  text-decoration: none;
 }
 
 /******Toolbar*******/
@@ -127,8 +128,82 @@ li.free{
   margin-bottom: 10px;
 }
 
+
 /*FooterA beginning with Weekly Pick*/
 
+.fourcolumns{
+  display: inline-block;
+  max-width: 100%;
+}
+
+.fourcolumns img{
+  width: 250px;
+  padding-bottom: 2px;
+}
+
+.column{
+  margin: 20px;
+  font-size: 12px;
+  float: left;
+}
+
+.column1{
+  margin-left: 100px;
+}
+
+.column3 p.subscribe{
+  display: inline;
+  background-color: blue;
+  color: white;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.title{
+  font-weight:bold;
+  font-size: 18px;
+}
+
+/*FooterB - the actual footer with grey background*/
+
+.footer{
+  background-color: #F4F4F4;
+  display: inline-block;
+  max-width: 100%;
+  border-top: 1px solid black;
+}
+
+.info{
+  display: inline-block;
+  float: left;
+}
+
+.shopby{
+  margin-left: 50px;
+}
+
+.topwords{
+  font-weight: 800;
+  padding-bottom: 3px;
+}
+
+.help{
+  margin-right: 400px;
+}
+
+.contact{
+  margin-right: 100px;
+  background-color: #A2AFC0;
+  color: white;
+  border-radius: 3px;
+}
+
+.contact p.contactbutton{
+  display: inline;
+  background-color:#33A1FF;
+  border-radius: 3px;
+  margin-left: 20px;
+}
 
 
 
@@ -142,5 +217,3 @@ li.free{
 
 
 
-
-/*Foot2*/
