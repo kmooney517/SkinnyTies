@@ -31,12 +31,8 @@ li.free{
 
 /*******Titlebar*******/
 .wholetitlebar{
-  padding-bottom: 100px;
-  border-bottom: 1px solid black;
-}
-.title{
-  bottom-border: 1px solid black;
-  overflow: auto;
+  padding-bottom: 75px;
+
 }
 
 .skinnylogo img{
@@ -57,24 +53,42 @@ li.free{
   float: left;
 }
 
-.shopping{
-  margin-bottom: 100px;
-  margin-right: 75px; 
-  float: right;
-}
-
 .shopping li{
   display: inline-block;
-  padding: 5px;
+  margin: 5px;
+  margin-top: 0px;
+  float: right;
+  color: #959595;
 }
 
-.sign_in{
-  width: 100%;
-  float: left;
+.line1{
+  font-size: 10px;
+  margin-bottom: 10px;
 }
 
 .cart{
-  width: 100%;
+  border: 1px solid black;
+  font-size: 20px;
+  width: 130px;
+  height: 20px;
+  padding-bottom: 5px;
+}
+
+.cart div{
+  display: inline-block;
+  padding: ;
+}
+
+.form{
+  padding: 0px 0px;
+  width: 20px 50px;
+}
+
+.cart-sprite{
+    background: url('images/sprite@2x.png') no-repeat -45px -1px;
+  background-size: 400px 200px;
+  width: 14px;
+  height: 12px;
 }
 
 /*********Ties Images*******/
@@ -83,13 +97,17 @@ li.free{
   background-color: #F4F4F4;
   max-width: 100%;
   padding-bottom: 10px;
+  border-top: 5px solid transparent;
+  -webkit-border-image: url('images/perforated-bottom%402x.png') 23 30 repeat;
+  -webkit-o-image: url('images/perforated-bottom%402x.png') 23 30 repeat;
+  border-image: url('images/perforated-bottom%402x.png') 23 30 repeat;
+  border-bottom: 0;
 }
 
 .tiecolors{
   display:inline-block;
   text-align: center;
   margin-left: 150px;
-  margin-top: -109px;
 }
 
 .tie{
@@ -112,8 +130,12 @@ li.free{
   width: 100%;
   margin-top: 50px;
   text-align: center;
-  border-bottom: 1px solid black;
   padding-bottom: 60px;
+  border-bottom: 11px solid transparent;
+  -webkit-border-image: url('images/hatch-light%402x.png') 30 3 repeat;
+  -webkit-o-image: url('images/hatch-light%402x.png') 20 3 repeat;
+  border-image: url('images/hatch-light%402x.png') 30 1 repeat;
+  border-top: 0;
 }
 
 .squarepics img{
@@ -153,7 +175,7 @@ li.free{
 
 .bowtie p{
   position: absolute;
-  top: 560px;
+  top: 575px;
   left: 350px;
 }
 
@@ -166,7 +188,7 @@ li.free{
 
 .pocketsquare p{
   position: absolute;
-  top: 560px;
+  top: 575px;
   left: 700px;
 }
 
@@ -179,12 +201,9 @@ li.free{
 
 .tiebars p{
   position: absolute;
-  top: 560px;
+  top: 575px;
   right: 150px;
 }
-
-
-
 
 
 /*FooterA beginning with Weekly Pick*/
@@ -217,15 +236,48 @@ li.free{
   margin-top: 0;
 }
 
-.column3 p.subscribe{
-  display: inline;
-  background-color: blue;
-  color: white;
-  padding: 6px;
-  border-radius: 10px;
+.sprite{
+  display: inline-block;
 }
 
-.column4 p.descrip{
+.facebook-icon {
+  background: url('images/sprite@2x.png') no-repeat -270px 0;
+  background-size: 400px 200px;
+  width: 35px;
+  height: 35px;
+}
+
+.pinterest-icon{
+  background: url('images/sprite@2x.png') no-repeat -270px -40px;
+  background-size: 400px 200px;
+  width: 35px;
+  height: 35px;
+}
+
+.twitter-icon{
+  background: url('images/sprite@2x.png') no-repeat -270px -80px;
+  background-size: 400px 200px;
+  width: 35px;
+  height: 35px;
+}
+
+.column3 p.subscribe{
+  display: inline;
+  background-color: #32A0FF;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.column3 input{
+  padding-right: 50px;
+  padding-left: 5px;
+  font-size: 14px;
+  box-shadow: 0px 2px 15px 9px #F4F4F4;
+}
+
+
+.column4 p.descrip{s
   margin-top: 0;
 }
 
@@ -240,8 +292,12 @@ li.free{
   background-color: #F4F4F4;
   display: inline-block;
   max-width: 100%;
-  border-top: 1px solid black;
   padding-bottom: 50px;
+  border-top: 5px solid transparent;
+  -webkit-border-image: url('images/perforated-bottom%402x.png') 23 30 repeat;
+  -webkit-o-image: url('images/perforated-bottom%402x.png') 23 30 repeat;
+  border-image: url('images/perforated-bottom%402x.png') 23 30 repeat;
+  border-bottom: 0;
 }
 
 .info{
@@ -269,26 +325,40 @@ li.free{
   width: 300px;
   height: 100px;
   padding: 5px;
-  margin-top: 20px;
-  margin-right: 70px;
+  margin-top: -95px;
+  margin-right: 65px;
+  float: right;
+}
+
+.info p.motto{
+  margin-top: 5px;
+  font-size: 25px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: italic;
+  margin-bottom: 0px;
 }
 
 .contactbutton{
   display: inline-block;
-  background-color:#33A1FF;
+  background-color: #33A1FF;
+  border: 5px #2688DC;
   border-radius: 3px;
   margin-left: 20px;
   position: relative;
-  left: 150px;
-  bottom: 50px;
+  padding: 10px;
+  left: 175px;
+  bottom: 67px;
 }
 
 .copyright{
   font-size: 10px;
   position: relative;
-  top: 50px;
-  right: 213px;
-  text-decoration: dotted;
+  top: 170px;
+  right: 778px;
+}
+
+.contactinfo{
+  margin-top: 6px;
 }
 
 
