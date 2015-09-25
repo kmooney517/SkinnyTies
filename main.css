@@ -51,6 +51,67 @@ li.free{
   margin-top: 10px;
   margin-left: 25px;
   float: left;
+  position: relative;
+}
+
+.collection li:after{
+  content:"";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 4px 0 4px;
+  border-color: #E3E2E2 transparent transparent transparent;
+  position: absolute;
+  top: 40px;
+  right: 59px;
+}
+
+.color li:after{
+  content:"";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 4px 0 4px;
+  border-color: #E3E2E2 transparent transparent transparent;
+  position: absolute;
+  top: 40px;
+  right: 32px;
+}
+
+.width li:after{
+  content:"";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 4px 0 4px;
+  border-color: #E3E2E2 transparent transparent transparent;
+  position: absolute;
+  top: 40px;
+  right: 34px;
+}
+
+.fabric li:after{
+  content:"";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 4px 0 4px;
+  border-color: #E3E2E2 transparent transparent transparent;
+  position: absolute;
+  top: 40px;
+  right: 36px;
+}
+
+.pattern li:after{
+  content:"";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 4px 0 4px;
+  border-color: #E3E2E2 transparent transparent transparent;
+  position: absolute;
+  top: 40px;
+  right: 46px;
 }
 
 .shopping li{
@@ -68,16 +129,17 @@ li.free{
 
 .cart{
   border: 1px solid black;
+  border-radius: 2px;
   font-size: 20px;
-  width: 130px;
+  width: 90px;
   height: 20px;
   padding-bottom: 5px;
 }
 
 .cart div{
   display: inline-block;
-  padding: ;
-}
+  font-size: 14px;
+  }
 
 .form{
   padding: 0px 0px;
@@ -85,10 +147,21 @@ li.free{
 }
 
 .cart-sprite{
-    background: url('images/sprite@2x.png') no-repeat -45px -1px;
+  background: url('images/sprite@2x.png') no-repeat -45px -1px;
   background-size: 400px 200px;
   width: 14px;
   height: 12px;
+}
+
+.searchbar input.placeholder{
+  float: right;
+}
+
+.searchbar input:before{
+  background: url('images/sprite@2x.png') no-repeat -45px -1px;
+  background-size: 400px 200px;
+  width: 14px;
+  height: 12px;  
 }
 
 /*********Ties Images*******/
